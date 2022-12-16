@@ -1,0 +1,73 @@
+*{
+    border: 1px solid red;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: rgba(105, 117, 141, 0.418);
+}
+ 
+.right{
+    display: flex;
+    gap: 10px;
+}
+
+.section1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.kayn {
+    display: flex;
+    flex: 1;
+}
+
+.center-text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section2 {
+    background-color: darkslategrey;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 {
+    background: url(./img/ionia.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section4 {
+    
+    background-color: darkslategrey;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
