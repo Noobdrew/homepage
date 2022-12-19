@@ -1,24 +1,32 @@
-*{
+* {
     border: 1px solid red;
 }
-body{
+
+
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
-a{
+
+a {
     text-decoration: none;
-    color: black;
+    color: #e4ded1;
 }
-.header{
+
+.header {
+    color: #e4ded1;
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
-    background-color: rgba(105, 117, 141, 0.418);
+    background-color: #24304A;
 }
- 
-.right{
+
+.right {
     display: flex;
     gap: 10px;
 }
@@ -35,23 +43,66 @@ a{
 }
 
 .center-text {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(1px);
+    color: #e4ded1;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: #2D446E 10px 0 15px;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.play-button {
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px 20px;
+    color: #151b24;
+    background-color: #e4ded1;
+}
+
+.play-button:hover {
+    color: #e4ded1;
+    background-color: #151b24;
+}
+
 .section2 {
-    background-color: darkslategrey;
+    background-color: #24304A;
     display: flex;
-    height: 300px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.cards {
+    color: #e4ded1;
+    text-shadow: #151b24 4px 4px 2px;
+    display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
+    flex-basis: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards img {
+    margin: 10px;
+    box-shadow: #151b24 5px 5px 4px;
 }
 
 .section3 {
-    background: url(./img/ionia.jpg);
+    background: url(./img/torigate.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -63,11 +114,19 @@ a{
     color: white;
 }
 
+.story {
+    font-size: 20px;
+    text-shadow: #151b24 4px 4px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 600px;
+}
+
 .section4 {
-    
+
     background-color: darkslategrey;
     display: flex;
-    height: 300px;
+    height: 1000px;
     justify-content: center;
     align-items: center;
 }
