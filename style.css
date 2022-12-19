@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 
 
@@ -49,18 +49,19 @@ a {
     border-radius: 20px;
     padding: 15px 30px;
     background-color: rgba(0, 0, 0, 0.61);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
     color: #e4ded1;
     font-size: 32px;
     font-weight: 600;
     text-shadow: #2D446E 10px 0 15px;
     position: absolute;
-    top: 80%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .play-button {
+    margin-top: 10px;
     border-radius: 20px;
     font-size: 20px;
     padding: 8px 20px;
@@ -107,21 +108,34 @@ a {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+   
     display: flex;
+    
     height: 500px;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
+
 .story {
-    font-size: 20px;
-    text-shadow: #151b24 4px 4px 2px;
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(2px);
+    color: #e4ded1;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: #2D446E 10px 0 15px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 600px;
+    flex-basis: 700px;
+    justify-content: end;
 }
 
+.story div{
+
+}
 .section4 {
 
     background-color: darkslategrey;
