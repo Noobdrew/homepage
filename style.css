@@ -32,11 +32,11 @@ a {
 
 }
 
-.header div{
+.header div {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 .right {
@@ -72,10 +72,11 @@ a {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition:  0.2s;
 }
 
 .play-button {
-    
+
     border-radius: 20px;
     font-size: 20px;
     padding: 8px 20px;
@@ -109,27 +110,31 @@ a {
     text-align: center;
 }
 
+
 .cards img {
+    display: flex;
+    flex: 0 1;
     margin: 10px;
     box-shadow: #151b24 8px 8px 4px;
     width: 150px;
     height: 150px;
-    transition: 0.3s ;
+    transition: 0.3s;
 }
 
-.cards img:hover{
+.cards img:hover {
     scale: 103%;
     box-shadow: #151b24 10px 10px 6px;
 }
 
-.cards img:active{
+.cards img:active {
     scale: 98%;
     box-shadow: #151b24 6px 6px 3px;
 }
 
-.cards div{
+.cards div {
     margin-top: 5px;
 }
+
 .section3 {
     background: url(./img/00018.png);
     background-position: center;
@@ -161,12 +166,13 @@ a {
     flex-wrap: wrap;
     flex-basis: 700px;
     justify-content: end;
+    transition: .5s;
 }
 
 .section4 {
     background-color: #24304A;
     display: flex;
-   
+
     align-items: center;
     justify-content: center;
     padding-top: 80px;
@@ -181,7 +187,7 @@ a {
     display: flex;
     box-shadow: #151b24 5px 5px 4px;
     align-items: center;
-    flex: 0 1 800px;
+    flex: 0 1 100%;
     border-radius: 20px;
     background-color: #181f30;
     padding: 20px;
@@ -220,18 +226,72 @@ a {
     color: #E3B261;
 }
 
-button{
-    
+button {
+
     transition: color 0.3s;
     transition: background-color 0.4s;
 }
 
-button:hover{
+button:hover {
     color: #e4ded1;
     background-color: #151b24;
 }
 
-button:active{
+button:active {
     transform: scale(97%);
 }
 
+
+@media screen and (max-width: 600px) {
+.header{
+    padding: 5px 15px 5px 10px;
+}
+    .play-button {
+        margin-top: 30px;
+        padding: 8px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .center-text {
+        padding: 20px 20px 0;
+        flex: 0 1 0;
+        width: 100px;
+        height: 150px;
+        font-size: 20px;
+        top: 50%;
+        left: 82%;
+    }
+
+    .section2 {
+        padding: 15px;
+    }
+
+    .cards {
+        width: 100px;
+        height: 100%;
+        font-size: 12px;
+    }
+
+    .cards img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .story{
+        font-size: 20px;
+    }
+
+    .contact{
+        height: 100%;
+        padding: 10px;
+    }
+    .contact div{
+        font-size: 15px;
+    }
+    .contact button{
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 200px;
+    }
+}
