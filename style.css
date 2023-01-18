@@ -115,6 +115,8 @@ a {
 .cards img {
     margin: 10px;
     box-shadow: #151b24 8px 8px 4px;
+    width: 150px;
+    height: 150px;
 }
 
 .section3 {
