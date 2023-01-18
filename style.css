@@ -75,7 +75,7 @@ a {
 }
 
 .play-button {
-    margin-top: 10px;
+    
     border-radius: 20px;
     font-size: 20px;
     padding: 8px 20px;
@@ -83,10 +83,7 @@ a {
     background-color: #e4ded1;
 }
 
-.play-button:hover {
-    color: #e4ded1;
-    background-color: #151b24;
-}
+
 
 .section2 {
     background-color: #24304A;
@@ -117,6 +114,15 @@ a {
     box-shadow: #151b24 8px 8px 4px;
     width: 150px;
     height: 150px;
+    transition: 0.3s ;
+}
+
+.cards img:hover{
+    scale: 103%;
+}
+
+.cards img:active{
+    scale: 98%;
 }
 
 .section3 {
@@ -193,11 +199,6 @@ a {
     background-color: #e4ded1;
 }
 
-.contact button:hover {
-    color: #e4ded1;
-    background-color: #151b24;
-}
-
 .footer {
     color: #e4ded1;
     background-color: #181f30;
@@ -213,3 +214,19 @@ a {
 .footer a:hover {
     color: #E3B261;
 }
+
+button{
+    
+    transition: color 0.3s;
+    transition: background-color 0.4s;
+}
+
+button:hover{
+    color: #e4ded1;
+    background-color: #151b24;
+}
+
+button:active{
+    transform: scale(97%);
+}
+
