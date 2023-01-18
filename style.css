@@ -187,7 +187,7 @@ a {
     display: flex;
     box-shadow: #151b24 5px 5px 4px;
     align-items: center;
-    flex: 0 1 100%;
+    flex: 0 1 800px;
     border-radius: 20px;
     background-color: #181f30;
     padding: 20px;
@@ -288,6 +288,7 @@ button:active {
 
     .contact{
         height: 100%;
+        width: 100%;
         padding: 10px;
     }
     .contact div{
