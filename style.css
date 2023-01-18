@@ -119,12 +119,17 @@ a {
 
 .cards img:hover{
     scale: 103%;
+    box-shadow: #151b24 10px 10px 6px;
 }
 
 .cards img:active{
     scale: 98%;
+    box-shadow: #151b24 6px 6px 3px;
 }
 
+.cards div{
+    margin-top: 5px;
+}
 .section3 {
     background: url(./img/00018.png);
     background-position: center;
